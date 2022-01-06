@@ -1,10 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-h1 {
-    font-weight: bold;
-    font-size: 18px;
+body {
+    font-family: Roboto;
+    display: flex;
+    background-image: url('images/pexels-jonathan-cooper-9715702.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.foot p {
-    color: green;
+.header-img {
+    width: 30%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-left: -100px; 
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+header h1 {
+    display: flex;
+}
+
+.header {
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.links {
+    float: right;
 }
