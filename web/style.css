@@ -1,12 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto;
     display: flex;
+    flex-direction: column;
+    min-height: auto;
     background-image: url('images/pexels-jonathan-cooper-9715702.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header, footer, main {
+   border: 4px solid red;
+}
+
+section {
+    border: 4px solid lime;
+}
+
+.gashi {
+    display: block;
+    border: 4px solid orange;
+    padding: 10px;
+}
+/*
+.header-img {
+    width: 30%;
+    height: auto;
 }
 
 .header-img {
@@ -39,3 +69,4 @@ header h1 {
 .links {
     float: right;
 }
+*/
