@@ -24,17 +24,35 @@ main {
 header {
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
 }
 
-.link {
-    margin-right: auto;
-    justify-content: space-around;
+.link a {
     text-decoration: none;
     list-style: none;
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
 }
 
-.col a {
+.link a:hover {
+    color: #003314;
+}
+
+.link a:focus {
+    color: darkolivegreen;
+}
+
+.link li {
+    list-style: none;
+    float: left;
+    padding: 14px 16px;
+}
+header h2 {
+    color: #003314;
+}
+
+.col {
+    justify-content: space-between;
     text-decoration: none;
     list-style: none;
 }
@@ -76,7 +94,7 @@ pic {
 
 a {
     display: block;
-    color: inherit;
+    color: blue;
     text-decoration: none;
 }
 
@@ -100,7 +118,7 @@ img {
 .button {
     display: inline-block;
     background-color: darkolivegreen;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     padding: 0.6em 1em;
     border-radius: 6px;
