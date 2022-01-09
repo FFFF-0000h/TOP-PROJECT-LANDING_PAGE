@@ -29,7 +29,7 @@ header {
 .link a {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: Roboto;
     font-weight: bold;
 }
@@ -48,7 +48,7 @@ header {
     padding: 14px 16px;
 }
 header h2 {
-    color: #003314;
+    color: #ffffff;
 }
 
 .col {
@@ -75,6 +75,7 @@ div .gashi {
     font-size: 32px;
     font-weight: 700;
     line-height: .9;
+    color: blanchedalmond;
 }
 
 @media (min-width: 700px) {
@@ -86,6 +87,7 @@ div .gashi {
 .bar-2 {
     font-size: 1rem;
     line-height: 1.3;
+    color: white;
 }
 
 pic {
