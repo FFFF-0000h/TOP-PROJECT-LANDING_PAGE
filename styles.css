@@ -1,0 +1,261 @@
+/* Global styles for the entire document */
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    font-family: 'roboto', 'arial', sans-serif; /* Set default font family */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange child elements in a column */
+}
+
+/* Padding for main sections */
+.header, .hero-section, .information-section, .quote-section, .footer {
+    padding: 0 200px; /* Add horizontal padding to the left and right */
+}
+
+/* HEADER */
+
+/* Header container styling */
+.header {
+    background-color: #1F2937; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space between child elements */
+}
+
+/* Logo styling */
+.header-logo {
+    color: #F9FAF8; /* Set text color */
+    font-size: 24px; /* Set font size */
+}
+
+/* Header navigation links styling */
+.header-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically center */
+    gap: 28px; /* Space between list items */
+}
+
+/* Individual link styling */
+.header-links li a {
+    color: #E5E7EB; /* Set link color */
+    font-size: 18px; /* Set font size */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Link hover effect */
+.header-links li a:hover {
+    color: #9d9d9d; /* Change color on hover */
+}
+
+/* Link active effect */
+.header-links li a:active {
+    color: #8a8a8a; /* Change color when active (clicked) */
+}
+
+/* HERO */
+
+/* Hero section container */
+.hero-section {
+    background-color: #1F2937; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    padding-top: 100px; /* Add top padding */
+    padding-bottom: 100px; /* Add bottom padding */
+}
+
+/* Left side of the hero section */
+.hero-left {
+    width: 450px; /* Set width */
+}
+
+/* Hero header text */
+.hero-header {
+    color: #F9FAF8; /* Set text color */
+    font-size: 48px; /* Set font size */
+    font-weight: 900; /* Set font weight */
+    line-height: 1.2; /* Set line height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Hero subtext */
+.hero-text {
+    color: #E5E7EB; /* Set text color */
+    font-size: 18px; /* Set font size */
+}
+
+/* Hero button */
+.hero-button {
+    color: white; /* Set text color */
+    background-color: #3882F6; /* Set background color */
+    font-size: 18px; /* Set font size */
+    border: none; /* Remove border */
+    border-radius: 6px; /* Set border radius */
+    padding: 10px 30px; /* Add padding */
+}
+
+/* Hero button hover effect */
+.hero-button:hover {
+    background-color: #2274f7; /* Change background color on hover */
+}
+
+/* Hero button active effect */
+.hero-button:active {
+    background-color: #0060fa; /* Change background color when active (clicked) */
+}
+
+/* Right side of the hero section (image placeholder) */
+.hero-right {
+    color: white; /* Set text color */
+    background-color: rgb(138, 138, 144); /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    width: 600px; /* Set width */
+    margin-left: 100px; /* Add left margin */
+    padding: 32px; /* Add padding */
+}
+
+/* INFORMATION */
+
+/* Information section container */
+.information-section {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange child elements in a column */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 80px; /* Add bottom margin */
+}
+
+/* Information section header */
+.info-header {
+    color: #1F2937; /* Set text color */
+    font-size: 36px; /* Set font size */
+    font-weight: 900; /* Set font weight */
+    margin: 45px 0; /* Add top and bottom margin */
+}
+
+/* Container for the info blocks */
+.info-container {
+    display: flex; /* Use flexbox for layout */
+    gap: 40px; /* Space between info blocks */
+    flex: none; /* Disable flex-grow, flex-shrink, and flex-basis */
+}
+
+/* Individual info block */
+.info-block {
+    width: 180px; /* Set width */
+    text-align: center; /* Center text */
+}
+
+/* Info box styling */
+.info-box {
+    background-color: white; /* Set background color */
+    min-height: 180px; /* Set minimum height */
+    width: inherit; /* Inherit width from parent */
+    border: 2px solid #2076ff; /* Add border with color */
+    border-radius: 12px; /* Set border radius */
+    margin-bottom: -10px; /* Negative bottom margin */
+}
+
+/* QUOTE */
+
+/* Quote section container */
+.quote-section {
+    background-color: #E5E7EB; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange child elements in a column */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Quote text */
+.quote {
+    color: #1F2937; /* Set text color */
+    font-size: 36px; /* Set font size */
+    font-style: italic; /* Set font style to italic */
+    width: 1000px; /* Set width */
+    line-height: 1.2; /* Set line height */
+    margin-top: 120px; /* Add top margin */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+/* Quote author's name */
+.quote-name {
+    font-size: 24px; /* Set font size */
+    font-weight: 700; /* Set font weight */
+    align-self: flex-end; /* Align to the end of the flex container */
+    margin-top: 20px; /* Add top margin */
+    margin-bottom: 100px; /* Add bottom margin */
+}
+
+/* SIGN-UP */
+
+/* Sign-up section container */
+.signup-section {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    margin-top: 100px; /* Add top margin */
+    margin-bottom: 100px; /* Add bottom margin */
+}
+
+/* Inner container for sign-up section */
+.signup-section div {
+    display: flex; /* Use flexbox for layout */
+    background-color: #2076ff; /* Set background color */
+    border-radius: 8px; /* Set border radius */
+    padding: 8px 80px; /* Add padding */
+}
+
+/* Left side of the sign-up section */
+.signup-left {
+    color: white; /* Set text color */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange child elements in a column */
+}
+
+/* Sign-up section header */
+.signup-header {
+    margin-bottom: 0px; /* Remove bottom margin */
+}
+
+/* Sign-up section subtext */
+.signup-text {
+    margin-top: 5px; /* Add top margin */
+}
+
+/* Sign-up button */
+.signup-button {
+    color: white; /* Set text color */
+    background-color: #3882F6; /* Set background color */
+    font-size: 18px; /* Set font size */
+    border: 2px solid white; /* Add border with color */
+    border-radius: 6px; /* Set border radius */
+    height: 40px; /* Set height */
+    align-self: center; /* Center button within flex container */
+    padding: 4px 30px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Sign-up button hover effect */
+.signup-button:hover {
+    background-color: #2274f7; /* Change background color on hover */
+}
+
+/* Sign-up button active effect */
+.signup-button:active {
+    background-color: #0060fa; /* Change background color when active (clicked) */
+}
+
+/* FOOTER */
+
+/* Footer section container */
+.footer {
+    color: white; /* Set text color */
+    background-color: #1F2937; /* Set background color */
+    font-size: 18px; /* Set font size */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 70px; /* Set height */
+}
